@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AppConfig>
+    <classifier>
+        <stability_filter>False</stability_filter>
+        <MaxCount>6</MaxCount>
+        <min_pixel_ratio>0.5</min_pixel_ratio>
+    </classifier>
+    
+    <roi>
+        <x>500</x>
+        <y>250</y>
+        <width>200</width>
+        <height>200</height>
+    </roi>
+</AppConfig>

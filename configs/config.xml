@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AppConfig>
+    <Camera>
+        <!-- Chỉ số camera (0: mặc định/webcam tích hợp, 1, 2...: camera USB rời) -->
+        <Index>0</Index>
+        <!-- Độ phân giải mong muốn -->
+        <Width>1280</Width>
+        <Height>720</Height>
+        <!-- Tốc độ khung hình (FPS) -->
+        <Fps>30</Fps>
+        <!-- Backend API: DSHOW cho Windows mở cam nhanh hơn, hoặc DEFAULT -->
+        <Backend>DSHOW</Backend>
+    </Camera>
+    
+    <Window>
+        <Title>USB Camera Live Stream</Title>
+    </Window>
+</AppConfig>
