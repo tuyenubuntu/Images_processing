@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>631</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Controller</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>0</y>
+        <width>361</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Camera</string>
+      </property>
+      <widget class="QLabel" name="stream_label">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>341</width>
+         <height>191</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>26</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Camera 1</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>261</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Config Camera</string>
+      </property>
+      <widget class="QComboBox" name="index_camera_cbb">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>20</y>
+         <width>101</width>
+         <height>26</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>81</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Index Camera</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>81</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Model</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="mode_cbb">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>50</y>
+         <width>101</width>
+         <height>26</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="connect_btn">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>190</y>
+         <width>81</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Connect</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>220</y>
+        <width>621</width>
+        <height>211</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Control Panel</string>
+      </property>
+      <widget class="QPushButton" name="pushButton">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>81</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Auto</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>20</y>
+         <width>81</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Manual</string>
+       </property>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_4">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>251</width>
+         <height>141</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>Input</string>
+       </property>
+       <widget class="QPushButton" name="pushButton_5">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>81</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Trigger 1</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_6">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>50</y>
+          <width>81</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Trigger 2</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_7">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>80</y>
+          <width>81</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Trigger 3</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_8">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>110</y>
+          <width>81</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Trigger 4</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_9">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>80</y>
+          <width>81</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Trigger 6</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_10">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>50</y>
+          <width>81</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Trigger 6</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_11">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>110</y>
+          <width>81</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Trigger 8</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_12">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>20</y>
+          <width>81</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Trigger 5</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>20</y>
+          <width>61</width>
+          <height>24</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Hold</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_5">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>60</y>
+         <width>251</width>
+         <height>141</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>Output</string>
+       </property>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>51</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 2px solid #4A90E2;   /* Độ dày (2px), kiểu viền (solid) và màu viền */
+border-radius: 8px;          /* Bán kính bo góc (tăng số để bo tròn hơn) */
+background-color: #f0f0f0;   /* Màu nền (tùy chọn) */
+padding: 4px 8px;            /* Khoảng đệm để chữ không bị dính sát viền */</string>
+        </property>
+        <property name="text">
+         <string>Out1</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_5">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>50</y>
+          <width>51</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 2px solid #4A90E2;   /* Độ dày (2px), kiểu viền (solid) và màu viền */
+border-radius: 8px;          /* Bán kính bo góc (tăng số để bo tròn hơn) */
+background-color: #f0f0f0;   /* Màu nền (tùy chọn) */
+padding: 4px 8px;            /* Khoảng đệm để chữ không bị dính sát viền */</string>
+        </property>
+        <property name="text">
+         <string>Out2</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_6">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>80</y>
+          <width>51</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 2px solid #4A90E2;   /* Độ dày (2px), kiểu viền (solid) và màu viền */
+border-radius: 8px;          /* Bán kính bo góc (tăng số để bo tròn hơn) */
+background-color: #f0f0f0;   /* Màu nền (tùy chọn) */
+padding: 4px 8px;            /* Khoảng đệm để chữ không bị dính sát viền */</string>
+        </property>
+        <property name="text">
+         <string>Out3</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_7">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>110</y>
+          <width>51</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 2px solid #4A90E2;   /* Độ dày (2px), kiểu viền (solid) và màu viền */
+border-radius: 8px;          /* Bán kính bo góc (tăng số để bo tròn hơn) */
+background-color: #f0f0f0;   /* Màu nền (tùy chọn) */
+padding: 4px 8px;            /* Khoảng đệm để chữ không bị dính sát viền */</string>
+        </property>
+        <property name="text">
+         <string>Out4</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_8">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>80</y>
+          <width>51</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 2px solid #4A90E2;   /* Độ dày (2px), kiểu viền (solid) và màu viền */
+border-radius: 8px;          /* Bán kính bo góc (tăng số để bo tròn hơn) */
+background-color: #f0f0f0;   /* Màu nền (tùy chọn) */
+padding: 4px 8px;            /* Khoảng đệm để chữ không bị dính sát viền */</string>
+        </property>
+        <property name="text">
+         <string>Out7</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_9">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>20</y>
+          <width>51</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 2px solid #4A90E2;   /* Độ dày (2px), kiểu viền (solid) và màu viền */
+border-radius: 8px;          /* Bán kính bo góc (tăng số để bo tròn hơn) */
+background-color: #f0f0f0;   /* Màu nền (tùy chọn) */
+padding: 4px 8px;            /* Khoảng đệm để chữ không bị dính sát viền */</string>
+        </property>
+        <property name="text">
+         <string>Out5</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_10">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>110</y>
+          <width>51</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 2px solid #4A90E2;   /* Độ dày (2px), kiểu viền (solid) và màu viền */
+border-radius: 8px;          /* Bán kính bo góc (tăng số để bo tròn hơn) */
+background-color: #f0f0f0;   /* Màu nền (tùy chọn) */
+padding: 4px 8px;            /* Khoảng đệm để chữ không bị dính sát viền */</string>
+        </property>
+        <property name="text">
+         <string>Out8</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_11">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>50</y>
+          <width>51</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 2px solid #4A90E2;   /* Độ dày (2px), kiểu viền (solid) và màu viền */
+border-radius: 8px;          /* Bán kính bo góc (tăng số để bo tròn hơn) */
+background-color: #f0f0f0;   /* Màu nền (tùy chọn) */
+padding: 4px 8px;            /* Khoảng đệm để chữ không bị dính sát viền */</string>
+        </property>
+        <property name="text">
+         <string>Out6</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Setting</string>
+     </attribute>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
